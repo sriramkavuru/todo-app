@@ -1,4 +1,4 @@
-# Advanced React To-Do Application with API Integration
+# To-Do Application with API Integration
 
 ## Description
 This project is an advanced To-Do application built using React, designed to test and enhance your understanding of foundational web technologies (HTML, CSS, JavaScript) and essential React concepts. The application integrates external API data, implements advanced state management using Redux, and ensures a responsive and user-friendly experience across various devices.
@@ -44,4 +44,4 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/advanced-react-todo-app.git
+   git clone https://github.com/sriramkavuru/todo-app.git
