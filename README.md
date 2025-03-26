@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Advanced React To-Do Application with API Integration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This project is an advanced To-Do application built using React, designed to test and enhance your understanding of foundational web technologies (HTML, CSS, JavaScript) and essential React concepts. The application integrates external API data, implements advanced state management using Redux, and ensures a responsive and user-friendly experience across various devices.
 
-## Available Scripts
+## Objective
+The main objective of this project is to enhance a basic To-Do application by:
+- Integrating external API data (e.g., weather information).
+- Implementing advanced state management using Redux.
+- Ensuring the application is responsive and user-friendly across different devices.
 
-In the project directory, you can run:
+## Features
+- **Frontend Development and API Integration**:
+  - Structured layout using HTML.
+  - Styled using CSS, with optional CSS frameworks like Bootstrap or Material-UI.
+  - Application logic implemented with JavaScript (ES6+).
+  - Integration with a public API to display relevant data (e.g., current weather conditions for outdoor tasks).
+  - Error handling for API requests to manage and display errors gracefully.
 
-### `npm start`
+- **React Components and Advanced State Management**:
+  - Developed using functional components and React hooks (`useState`, `useEffect`).
+  - Components include:
+    - **TaskInput**: For adding new tasks.
+    - **TaskList**: For displaying the list of tasks.
+  - Utilizes Redux Thunk or Redux Saga for handling asynchronous actions (e.g., API calls).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Responsive Design**:
+  - Fully responsive design for mobile, tablet, and desktop devices.
+  - Implemented using CSS Grid and Flexbox with a mobile-first design approach.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Functionality**:
+  - **Add Task**: Users can input a task and add it to the list.
+  - **View Tasks**: Displays all added tasks in a list format.
+  - **Delete Task**: Each task has a delete button to remove it from the list.
+  - **Task Prioritization**: Users can set priorities (High, Medium, Low) for tasks.
+  - **Persistent Storage**: Uses local storage or session storage to save tasks and authentication status.
 
-### `npm test`
+- **User  Authentication**:
+  - Simple user authentication feature (login/logout functionality) simulated using Redux for state management.
+  - Protects the To-Do list behind authentication, ensuring tasks are only visible to logged-in users.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup Instructions
+To run this project locally, follow these steps:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/advanced-react-todo-app.git
